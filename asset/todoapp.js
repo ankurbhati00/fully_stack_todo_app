@@ -15,7 +15,7 @@ for(let item of checkedItems){
 }
 
 
-const url = "http://localhost:8000/delete-todo";
+const url = "https://todo-app-1ajf.onrender.com/delete-todo";
 const data = {checkedIds};
 
 
