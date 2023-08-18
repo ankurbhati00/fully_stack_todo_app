@@ -4,8 +4,8 @@ let ul = document.querySelector('ul');
 let deleteButton = document.getElementById('delete-btn');
 
 
-function deleteItems(){
-
+function deleteItems(e){
+e.preventDefault();
     // collect obj document ids and save to array
 
     let checkedItems = ul.querySelectorAll('.checkbox:checked');
